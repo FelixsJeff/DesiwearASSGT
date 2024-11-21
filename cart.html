@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+        <!-- font awsome icons  -->
+        <script src="https://kit.fontawesome.com/e49cca1a04.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="DesiWear Logo" class="logo "></a>
+            <ul class="nav-links">
+                
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+            <!-- Cart Icon -->
+            <a href="./cart.html">
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <!--<img src="cart-icon.png" alt="Cart">-->
+                    <span class="cart-icon-counter">0</span>
+                </div>
+            </a>
+        </nav>
+    </header>
+
+<main>
+    <div class="cart">
+        <h1>Your Cart</h1>
+        <div id="cart-grid" class="cart-grid">
+            <!-- Cart items will be displayed here -->
+             <p>cart items</p>
+            
+        </div>
+        <a href="./checkout.html"><button class="checkout-btn">Proceed to Checkout</button></a>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 DesiWear. All Rights Reserved.</p>
+    <ul class="social-links">
+        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+    </ul>
+    <!-- Social Media Sharing Buttons -->
+
+
+</footer>
+
+<script src="scripts/product.js"></script>
+<script src="scripts/cart.js"></script>
+<script src="scripts/product-details.js"></script>
+
+</body>
+</html>

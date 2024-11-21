@@ -1,0 +1,84 @@
+<!-- product-details.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="styles/style.css">
+     <!-- Basic Meta Tags for SEO -->
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Your online fashion store for men's and women's wear.">
+     <meta name="keywords" content="fashion, online store, men's wear, women's wear, accessories">
+     <meta name="author" content="DESI Wear">
+     
+     <!-- Open Graph Meta Tags for Social Media -->
+     <meta property="og:title" content="DESI Wear | Fashion for Everyone">
+     <meta property="og:description" content="Discover the latest trends in fashion at DESI Wear. Shop men's wear, women's wear, and accessories.">
+     <meta property="og:image" content="desiwear.store/sareeE">
+     <meta property="og:url" content="{desiwear.store}">
+     <meta property="og:type" content="website">
+     <meta property="og:site_name" content="DESI Wear">
+     
+     <!-- Twitter Card Meta Tags -->
+     <meta name="twitter:card" content="summary_large_image">
+     <meta name="twitter:title" content="DESI Wear | Fashion for Everyone">
+     <meta name="twitter:description" content="Discover the latest trends in fashion at DESI Wear. Shop men's wear, women's wear, and accessories.">
+     <meta name="twitter:image" content="desiwear.store/sareeE">
+
+     <!-- font awsome icons  -->
+     <script src="https://kit.fontawesome.com/e49cca1a04.js" crossorigin="anonymous"></script>
+</head>
+<body>
+           <!-- Header Section -->
+    <header>
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="DesiWear Logo" class="logo "></a>
+            <ul class="nav-links">
+                
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+            <!-- Cart Icon -->
+            <a href="./cart.html">
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <!--<img src="cart-icon.png" alt="Cart">-->
+                    <span class="cart-icon-counter">0</span>
+                </div>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div class="product-details-container">
+            <div class="product-details" >
+                <img id="product-image" src="" alt="Product Image">
+                <span class="prod-info">
+                    <h2 id="name">Product Name</h2>
+                </br>
+                    <p id="description">Product description</p>
+                </br>
+                    <p id="price">price</p>
+                </span>
+            </div>
+            <button class="btn add-to-cart-btn ">Add to Cart</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 DesiWear. All Rights Reserved.</p>
+        <ul class="social-links">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+        </ul>
+       
+    </footer>
+    
+    <script src="scripts/product-description.js" defer></script>
+    <script src="scripts/product-details.js" defer></script>
+    <script src="scripts/cart.js"></script>
+    
+</body>
+</html>
